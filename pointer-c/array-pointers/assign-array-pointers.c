@@ -1,7 +1,9 @@
+// Credits to https://www.tutorialspoint.com/cprogramming/c_array_of_pointers.htm
+
 #include <stdio.h>
  
 const int MAX = 3;
- 
+
 int main () {
 
    int  var[] = {10, 100, 200};

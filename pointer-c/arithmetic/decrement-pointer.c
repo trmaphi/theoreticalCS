@@ -1,3 +1,5 @@
+// Credits to https://www.tutorialspoint.com/cprogramming/c_pointer_arithmetic.htm
+
 #include <stdio.h>
 
 const int MAX = 3;

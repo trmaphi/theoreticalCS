@@ -1,3 +1,5 @@
+// Credits to https://www.tutorialspoint.com/cprogramming/c_array_of_pointers.htm
+
 #include <stdio.h>
 
 const int MAX = 4;
