@@ -13,5 +13,5 @@ app.use('/eventEmit', (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Listen payload`);
+    console.log(`Listen event payload`);
 });
