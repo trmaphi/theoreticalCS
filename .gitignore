@@ -4,3 +4,7 @@
 out/
 
 node_modules/
+*.o
+
+*.dSYM.zip
+*.dSYM
