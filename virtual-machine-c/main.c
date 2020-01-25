@@ -1,7 +1,7 @@
 /**
-        This is almost identical to the articles
-        VM
-**/
+ * This is almost identical to the articles VM
+ * From https://blog.felixangell.com/virtual-machine-in-c/
+ **/
 
 #include <stdbool.h>
 #include <stdio.h>
