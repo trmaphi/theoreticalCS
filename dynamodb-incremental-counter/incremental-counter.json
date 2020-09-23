@@ -1,0 +1,19 @@
+{
+    "TableName": "Counter",
+    "KeySchema": [
+        {
+            "AttributeName": "CounterEntity",
+            "KeyType": "HASH"
+        }
+    ],
+    "AttributeDefinitions": [
+        {
+            "AttributeName": "CounterEntity",
+            "AttributeType": "S"
+        }
+    ],
+    "ProvisionedThroughput": {
+        "ReadCapacityUnits": 1,
+        "WriteCapacityUnits": 1
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "TableName": "Counter",
+    "Key": {
+        "CounterEntity": {
+            "S": "Entity"
+        }
+    },
+    "UpdateExpression": "ADD currentValue :count",
+    "ExpressionAttributeValues": { 
+        ":count": {
+            "N": "1"
+        }
+    },
+    "ReturnValues": "ALL_NEW"
+}
